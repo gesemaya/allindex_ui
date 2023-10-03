@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2023-09-29 06:36-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/app/components/inputs/SearchDropdownInput.tsx:21
+msgid "Search Dropdown Input"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:147
+#~ msgid "Search Pool Dropdown"
+#~ msgstr ""
+
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:205
+#~ msgid "24 Volume"
+#~ msgstr ""
+
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:250
+msgid "24H Volume"
+msgstr ""
+
+#: src/app/components/lists/orderBook/OrderBook.tsx:35
+msgid "Amount"
+msgstr ""
+
+#: src/app/components/modals/MenuModal.tsx:81
+#: src/app/components/navbar/NavBar.tsx:90
+msgid "Analytics"
+msgstr ""
+
+#: src/app/components/buttons/ClearAllButton.tsx:24
+msgid "Clear all"
+msgstr ""
+
+#: src/app/components/sections/liquidityPage/DeployPositionPanel.tsx:337
+msgid "Enter amount"
+msgstr ""
+
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:209
+#~ msgid "Fee"
+#~ msgstr ""
+
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:385
+msgid "No Search Results"
+msgstr ""
+
+#: src/app/components/modals/MenuModal.tsx:54
+#: src/app/components/navbar/NavBar.tsx:60
+msgid "Orders"
+msgstr ""
+
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:197
+msgid "Pools"
+msgstr ""
+
+#: src/app/components/modals/MenuModal.tsx:48
+#: src/app/components/navbar/NavBar.tsx:54
+msgid "Position Maker"
+msgstr ""
+
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:299
+#: src/app/components/lists/orderBook/OrderBook.tsx:30
+#: src/app/components/lists/tradingHistory/TradeHistoryTitles.tsx:21
+msgid "Price"
+msgstr ""
+
+#: src/app/components/lists/tradingHistory/TradeHistoryTitles.tsx:26
+msgid "Size"
+msgstr ""
+
+#: src/app/components/modals/MenuModal.tsx:59
+#: src/app/components/navbar/NavBar.tsx:65
+msgid "Swap"
+msgstr ""
+
+#: src/app/components/lists/tradingHistory/TradeHistoryTitles.tsx:31
+msgid "Time"
+msgstr ""
+
+#: src/app/components/lists/orderBook/OrderBook.tsx:40
+msgid "Total"
+msgstr ""
+
+#: src/app/components/modals/MenuModal.tsx:42
+#: src/app/components/navbar/NavBar.tsx:48
+msgid "Trade"
+msgstr ""
+
+#: src/app/components/dropdown/SearchPoolDropDown.tsx:282
+msgid "TVL"
+msgstr ""
