@@ -1,4 +1,4 @@
-import { getChainIdFromName } from '../constants/abi/chainInfo'
+import { getChainIdFromName } from '@/app/constants/chainInfo'
 import { identify, init } from '@multibase/js'
 import { createContext, ReactElement, useContext, useEffect, useState } from 'react'
 import ReactGA from 'react-ga4'
@@ -65,7 +65,7 @@ export const NetworkContextProvider = ({ children }: { children: ReactElement })
     }
     let referrer_url = document.referrer
     if (referrer_url === '') {
-      referrer_url = 'https://oku.trade'
+      //referrer_url = 'https://oku.trade'
     }
     const url = new URL(referrer_url)
     const urlParams = new URLSearchParams(url.search)

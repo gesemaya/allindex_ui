@@ -1,6 +1,6 @@
 import { IToken } from '../lib/getToken'
 import { Pool, encodeSqrtRatioX96 } from '@uniswap/v3-sdk'
-import { parseUnits } from 'ethers/lib/utils.js'
+import { parseUnits } from 'ethers'
 import { Hex, encodeFunctionData } from 'viem'
 import { uniswapNftManagerABI } from '../../generated'
 

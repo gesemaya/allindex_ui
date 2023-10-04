@@ -14,7 +14,7 @@ const POWERS_OF_2 = [128, 64, 32, 16, 8, 4, 2, 1].map((pow: number): [bigint, bi
   TWO ** BigInt(pow),
 ])
 
-const MaxUint256 = BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
+export const MaxUint256 = BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
 
 export abstract class FullMath {
   /**

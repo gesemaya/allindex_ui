@@ -5,7 +5,7 @@ import { mainnet, moonbeam, zkSync } from 'wagmi/chains'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
 import { configureChains, createConfig } from 'wagmi'
 import { publicProvider } from 'wagmi/providers/public'
-import { CHAINS_LIST } from '../constants/chainInfo'
+import { CHAINS_LIST } from '@/app/constants/chainInfo'
 import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
 import { InjectedConnector } from 'wagmi/connectors/injected'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
@@ -17,12 +17,12 @@ import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 // configure chains where you want to use the public provider if on goerli network
 //
 
-const projectId = '0ba768db4337c817602564a355370491'
+const projectId = '3fe2b83a5825033ca16cb4d5e8550ef2'
 
 const metadata = {
   name: 'Oku',
   description: 'Oku - The #1 Defi Interface',
-  url: 'https://oku.trade',
+  url: 'http://localhost',
   icons: ['https://oku.trade/favicon.ico'],
 }
 const theseChains = [...CHAINS_LIST]
@@ -60,7 +60,7 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 const wagmiConfig = createConfig({
   autoConnect: true,
   connectors: [
-    new WalletConnectConnector({ chains, options: { projectId, showQrModal: false, metadata } }),
+     new WalletConnectConnector({ chains, options: { projectId, showQrModal: false, metadata } }),
     new InjectedConnector({ chains, options: { shimDisconnect: true } }),
     new CoinbaseWalletConnector({ chains, options: { appName: metadata.name } }),
   ],

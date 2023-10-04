@@ -1,7 +1,7 @@
 import { track } from '@multibase/js'
 import { PublicClient, erc20ABI } from '@wagmi/core'
 import { useEffect, useState } from 'react'
-import { CanoeClient } from '../../canoe'
+import { CanoeClient } from '@/canoe/CanoeClient'
 import { OrderBannerEnums } from '../components/banners/OrderBanners'
 import { CHAIN_INFO, IChainInfo } from '../constants/chainInfo'
 import { useConfigContext } from '../context/naked/ConfigContext'
@@ -12,7 +12,7 @@ import { useDebounceState } from './useDebounce'
 import { useQuery } from '@tanstack/react-query'
 import { zkSync } from 'wagmi/chains'
 import { Address, SendTransactionParameters, getContract } from 'viem'
-import { getPermitData } from '../v3-sdk'
+import { getPermitData } from '@/app/v3-sdk/permit2'
 import { WalletClientWithAccount } from '../context/NetworkContext'
 
 export interface RequestQuoteParams {

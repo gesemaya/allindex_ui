@@ -1,7 +1,7 @@
 import { PoolInfo } from '../contracts/getPoolInfo'
 import { IToken } from '../lib/getToken'
 import { CurrencyAmount } from '@uniswap/sdk-core'
-import { Q96, SqrtPriceMath, TickMath, nearestUsableTick } from '../v3-sdk'
+import { Q96, SqrtPriceMath, TickMath, nearestUsableTick } from '@/app/v3-sdk/v3/index'
 import { parseUnits } from 'viem'
 import { Pool, Position } from '@uniswap/v3-sdk'
 

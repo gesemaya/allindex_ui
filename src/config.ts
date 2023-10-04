@@ -8,7 +8,7 @@ if (window.log === undefined) {
     const rawMethod = originalFactory(methodName, logLevel, loggerName)
     return rawMethod.bind(rawMethod, `[${methodName}]`)
   }
-  log.setLevel(window.ConfigJsStaticOptions.Logging.level)
+  //log.setLevel(window.ConfigJsStaticOptions.Logging.level)
 }
 
 declare global {

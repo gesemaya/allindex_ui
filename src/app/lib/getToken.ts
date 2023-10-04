@@ -1,11 +1,11 @@
 import { ZERO_ADDRESS } from '../constants/addresses'
 import { DefaultTokenList } from '../../config'
 import noTokenLogo from '../assets/no-token-logo.webp'
-import { CHAIN_INFO } from '../constants/abi/chainInfo'
+import { CHAIN_INFO } from '@/app/constants/chainInfo'
 import { createToken } from '../util/createToken'
 import { getTokenLogoUrl } from '../util/getTokenLogo'
 import { TokenInfo, TokenList } from './tokenList'
-import { Token } from '../v3-sdk'
+import { Token } from '@/app/v3-sdk/token'
 
 export interface IToken extends Token {
   logoURI: string

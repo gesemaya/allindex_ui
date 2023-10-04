@@ -1,6 +1,6 @@
 // take in a price and calculate the tick
 
-import { TickMath } from '../v3-sdk'
+import { TickMath } from '@/app/v3-sdk/v3'
 
 export const getTickFromPrice = (price: number, token0decimals: number, token1decimals: number, direction: boolean) => {
   if (isNaN(price) || price === 0) return 0

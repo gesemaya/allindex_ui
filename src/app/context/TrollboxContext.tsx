@@ -88,7 +88,7 @@ export const TrollboxContextProvider = ({ children }: { children: any }) => {
     return
   }
 
-  const currentChannel = 'oku.trade'
+  const currentChannel = 'localhost'
 
   const acceptedChannels = ['', currentChannel]
   const messageHandlers: any = {

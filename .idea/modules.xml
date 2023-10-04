@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mango-v4-ui.iml" filepath="$PROJECT_DIR$/.idea/mango-v4-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/all_in_dex_ui.iml" filepath="$PROJECT_DIR$/.idea/all_in_dex_ui.iml" />
     </modules>
   </component>
 </project>

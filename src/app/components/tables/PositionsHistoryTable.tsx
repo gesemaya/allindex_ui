@@ -12,7 +12,7 @@ import Paginator from './Paginator'
 import { TableDrawer } from './TableDrawer'
 import { UserPositions } from '@gfxlabs/oku'
 import { ArrowDownLeftIcon, ArrowUpRightIcon } from '@heroicons/react/24/solid'
-import { formatUnits } from 'ethers/lib/utils.js'
+import { formatUnits } from 'ethers'
 import { useEffect, useMemo, useState } from 'react'
 
 interface IPositionsHistoryTable {

@@ -4,7 +4,7 @@ import { PoolTokenInfo } from '../../../../context/DataContext'
 import { univ3_LiquiditySnapshot } from '@gfxlabs/oku'
 import { maxTickHeight, tagSize, xAxisHeight } from './constants'
 import { IBounds } from './type'
-import { SqrtPriceMath, TickMath } from '../../../../v3-sdk/v3/math'
+import { SqrtPriceMath, TickMath } from '@/app/v3-sdk/v3/math'
 
 export const getLocationFromX = (x: number, bounds: IBounds, width: number) => {
   return bounds.lower + (bounds.upper - bounds.lower) * (x / width)

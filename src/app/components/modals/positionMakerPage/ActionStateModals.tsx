@@ -7,7 +7,7 @@ import { getTokenLogoUrl } from '../../../util/getTokenLogo'
 import { getTokenSymbol } from '../../../util/getTokenName'
 import { UserPositions } from '@gfxlabs/oku'
 import { getHoverColor } from '../../charts/utils/getHoverColor'
-import { formatUnits } from 'ethers/lib/utils.js'
+import { formatUnits } from 'ethers'
 import { useEffect, useState } from 'react'
 
 interface IButton {

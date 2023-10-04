@@ -1,6 +1,6 @@
 // a function that takes in a positions_AllPositions object and returns the total uncollected fees in dollar value
 import { UserPositions } from '@gfxlabs/oku'
-import { formatUnits } from 'ethers/lib/utils.js'
+import { formatUnits } from 'ethers'
 
 const calculateUncollectedFeesFromPosition = (position: UserPositions) => {
   const { current_fee_info, position_pool_data } = position

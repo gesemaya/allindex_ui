@@ -1,4 +1,4 @@
-import { Token } from '../v3-sdk'
+import { Token } from '@/app/v3-sdk/token'
 
 export const createToken = ({
   chainId = 1,

@@ -2,10 +2,12 @@ import ScreenContainer from '../components/containers/ScreenContainer'
 import { CreatePoolModal } from '../components/modals/CreatePool'
 import MenuModal from '../components/modals/MenuModal'
 import TransactionModal from '../components/modals/swap/TransactionModal'
-import { CHAIN_INFO, getChainIdFromName } from '../constants/chainInfo'
+import { CHAIN_INFO, getChainIdFromName } from '@/app/constants/chainInfo'
 import AppContext from '../context/Context'
 import { OmniCush, useRpcContext } from '../context/naked/RpcContext'
-import { LiquidityPage, PoolPage, OrdersPage } from '../pages'
+import { LiquidityPage } from '@/app/pages/LiquidityPage'
+import {  PoolPage } from '@/app/pages/PoolPage'
+import {   OrdersPage } from '@/app/pages/OrdersPage'
 import { AuthPage } from '../pages/AuthPage'
 import { NotFound404 } from '../pages/NotFound404'
 import SwapPage from '../pages/SwapPage'
@@ -58,7 +60,7 @@ const isAddress = (x?: string) => {
 
 export const TitleFunc = (args: { pageTitle?: string }) => {
   let { pageTitle } = args
-  pageTitle = pageTitle ? pageTitle.toString() : 'oku.trade'
+  pageTitle = pageTitle ? pageTitle.toString() : '333oku.trade'
   return (
     <Helmet>
       <title>{pageTitle}</title>
@@ -172,7 +174,7 @@ const createRouter = (omniCush: OmniCush) => {
           <meta name="keywords" content="Crypto, Uniswap, Token, Pool, Trade, Analytics" />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content={`https://www.oku.trade/app${loc.pathname}`} />
+          {/*<meta property="og:url" content={`https://www.oku.trade/app${loc.pathname}`} />*/}
           <meta property="og:image" content="https://cdn.gfx.xyz/okusplash.png" />
         </Helmet>
       </>

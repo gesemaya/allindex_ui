@@ -4,7 +4,7 @@ import { IToken } from '../../../lib/getToken'
 import { formatNumberToString } from '../../../util/formatNumbers'
 import { usePositionMakerContext } from '../../../context/PositionMakerContext'
 import Input from '../../inputs/NumberInput'
-import { formatUnits } from 'ethers/lib/utils.js'
+import { formatUnits } from 'ethers'
 import { useEffect, useState } from 'react'
 
 interface ITokenInput {

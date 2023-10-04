@@ -13,7 +13,7 @@ import { UserPositions } from '@gfxlabs/oku'
 import { track } from '@multibase/js'
 import { useState } from 'react'
 import { useAccount, useWalletClient } from 'wagmi'
-import { MaxUint256 } from '../../../v3-sdk'
+import { MaxUint256 } from '@/app/v3-sdk/v3/index'
 import { useNetworkContext } from '../../../context/NetworkContext'
 
 interface IModal {

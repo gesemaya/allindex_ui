@@ -1,7 +1,7 @@
 import { CushApi } from '@gfxlabs/oku'
 import { fetchPoolSummary } from '../data/pool_summary'
 import { RpcClient } from '@gfxlabs/jsrpc'
-import { isAddress } from 'ethers/lib/utils.js'
+import { isAddress } from 'ethers'
 import { Location } from 'react-router-dom'
 
 /**

@@ -5,7 +5,7 @@ import { Address, encodeFunctionData, getContract, Hex, WalletClient } from 'vie
 import { PublicClient } from 'wagmi'
 import { ReturnTypeOfMethod } from '../hooks/useClient'
 import { chainlinkLimitOrderABI } from '../../generated'
-import { nearestUsableTick } from '../v3-sdk'
+import { nearestUsableTick } from '@/app/v3-sdk/v3'
 
 export const createLimitOrderContract = (signer?: WalletClient, provider?: PublicClient) => {
   // window.log.log(CHAINLINK_LIMIT_ORDER_CONTRACT(chain))

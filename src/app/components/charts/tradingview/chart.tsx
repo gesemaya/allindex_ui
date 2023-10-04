@@ -5,7 +5,7 @@ import {
   LanguageCode,
   ResolutionString,
   widget,
-} from '../../../../../vendor/charting_library/charting_library'
+} from '@/charting_library/charting_library.esm.js'
 import { useChainLoader } from '../../../route/RouteWrapper'
 import { useI18nContext } from '../../../context/naked/I18nContext'
 import { TradingViewDatafeed } from '../../../data/TradingViewDatafeed'
@@ -56,7 +56,7 @@ export const TradingViewChart = () => {
     libraryPath: '/app/charting_library/',
     chartsStorageUrl: 'https://saveload.tradingview.com',
     chartsStorageApiVersion: '1.1',
-    clientId: 'oku.trade',
+    clientId: 'localhost',
     userId: 'user',
     fullscreen: false,
     autosize: true,
