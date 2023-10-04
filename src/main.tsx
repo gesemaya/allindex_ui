@@ -12,7 +12,7 @@ import { HelmetProvider } from 'react-helmet-async'
 import NakedContext from './app/context/naked/NakedContext'
 
 Sentry.init({
-  dsn: 'https://89d5a7c7a474bd0dc0052997525dec99@o4505921282572288.ingest.sentry.io/4505921285324800',
+  dsn: "https://0cfed9a60fdb1189c19f373804c74639@o255391.ingest.sentry.io/4505990031015936",
   integrations: [
     new Sentry.BrowserTracing({
       // Set 'tracePropagationTargets' to control for which URLs distributed tracing should be enabled

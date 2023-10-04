@@ -15,7 +15,7 @@ export const PoolPage = () => {
         <PairRow />
       </div>
       <PoolPageLayout />
-      {chatEnabled.toLowerCase() === 'true' ? <TrollBoxBar /> : <></>}
+      {/*{chatEnabled.toLowerCase() === 'true' ? <TrollBoxBar /> : <></>}*/}
     </>
   )
 }

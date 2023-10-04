@@ -1,11 +1,13 @@
 import arbitrumLogoUrl from '@/app/assets/arbitrum-logo.svg'
 import bobaLogoUrl from '@/app/assets/boba-logo.png'
 import bscLogoUrl from '@/app/assets/bsc-logo.svg'
-import ethLogoUrl from '@/app/assets/ethereum-logo.webp'
+import ethLogoUrl from '@/app/assets/ethereum-logo.png'
+
+
 import goerliLogoUrl from '@/app/assets/goerli-logo.svg'
 import moonbeamLogoUrl from '@/app/assets/moonbeam-logo.svg'
 import optimismLogoUrl from '@/app/assets/optimism-logo.svg'
-import polygonLogoUrl from '@/app/assets/polygon-logo.webp'
+import polygonLogoUrl from '@/app/assets/polygon-logo.png'
 import zksyncLogoUrl from '@/app/assets/zksync-logo.svg'
 import { Chain } from 'wagmi'
 import { bsc, arbitrum, goerli, mainnet, optimism, polygon, boba, moonbeam, zkSync } from 'wagmi/chains'

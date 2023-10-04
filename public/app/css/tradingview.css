@@ -1,0 +1,17 @@
+.theme-dark:root {
+  --tv-color-platform-background: #0e0e0e;
+  --tv-color-pane-background: #0E0e0e;
+  /*
+--tv-color-toolbar-button-background-hover: #1e1e1e;
+--tv-color-toolbar-button-background-expanded: #1e1e1e;
+--tv-color-toolbar-button-background-active: #1e1e1e;
+--tv-color-toolbar-button-background-active-hover: #1e1e1e;
+--tv-color-item-active-text: #ffffff;
+--tv-color-toolbar-toggle-button-background-active: #1e1e1e;
+--tv-color-toolbar-button-text:'#99a1bd';
+--tv-color-toolbar-button-text-hover:'#F5F6FC';
+--tv-color-toolbar-button-text-active:'#ffffff';
+--tv-color-toolbar-button-text-active-hover:'#F5F6FC';
+--tv-color-toolbar-divider-background:'#141b2b';
+*/
+}

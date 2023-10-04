@@ -1,5 +1,5 @@
-import Menu from '../../assets/iconComponents/Menu'
-import univ3Logo from '../../assets/uni-v3.webp'
+import Menu from '@/app/assets/iconComponents/Menu'
+import univ3Logo from '@/app/assets/uni-v3.webp'
 import { T2 } from '../typography/Typography'
 import { useModalContext } from '../../context/naked/ModalContext'
 import useBreakpoint, { stringBreakpoints } from '../../hooks/useBreakpoint'

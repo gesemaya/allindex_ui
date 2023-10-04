@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.svg'
+import logo from '@/app/assets/logo.svg'
 import { colors } from '../../constants/colors'
 import useMobile from '../../hooks/useMobile'
 import { useState } from 'react'

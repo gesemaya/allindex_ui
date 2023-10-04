@@ -30,6 +30,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
       react({
         plugins: [["@lingui/swc-plugin", {}]],
       }),
+
       lingui(),
       createSvgIconsPlugin({
         iconDirs: [resolve(process.cwd(), 'src/assets/icons')],

@@ -1,5 +1,5 @@
 import { useChainLoader } from '../../route/RouteWrapper'
-import Search from '../../assets/search.svg'
+import Search from '@/app/assets/search.svg'
 import { FormatNumber } from '../numbers/FormatNumber'
 import { T2, T3, T4 } from '../typography/Typography'
 import { colors } from '../../constants/colors'

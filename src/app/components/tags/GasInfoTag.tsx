@@ -1,4 +1,4 @@
-import gasLogoUrl from '../../assets/gas.webp'
+import gasLogoUrl from '@/app/assets/gas.webp'
 import { T4 } from '../typography/Typography'
 import { useEffect, useState } from 'react'
 import { useAccount } from 'wagmi'
